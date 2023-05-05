@@ -1,0 +1,66 @@
+.navbar{
+    width: 90%;
+    margin: 50px;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: space-between;
+     text-align: center;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+    .banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(controller.png);
+    background-size: cover;
+    background-position: center;
+}
+
+div.box{
+    background-color: hsla(207, 100%, 50%, 0.3);
+    text-align: center; 
+    border-style: solid;
+    border-color:blue;
+    border-radius: 20px;
+    margin: 100px;
+    padding:2px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  color: white;
+  text-align: center;
+}
+
+img {
+  display: block; 
+  margin: 0 auto; 
+  border: 2px solid blue; 
+}
